@@ -5,9 +5,9 @@ The framework used for the CNN implementation can be found here:
 
 Simple transfer learning with an Inception V3 architecture model by xuetsing
 
-Requirements
-This project uses python 3.5 and the PIP following packages:
+REQUIREMENTS:
 
+This project uses python 3.5 and the PIP following packages:
 opencv
 tensorflow
 matplotlib
@@ -15,9 +15,11 @@ numpy
 
 
 Install using PIP
+
 pip3 install -r requirements.txt
 
-Training
+TRAINING
+
 To train the model, use the following command (see framework github link for more command options):
 
 python3 train.py \
@@ -30,12 +32,14 @@ python3 train.py \
   --image_dir=./dataset
 If you're using the provided dataset, it may take up to three hours.
 
-Classifying
+CLASSIFYING
+
 To test classification, use the following command:
 
 python3 classify.py path/to/image.jpg
 
-Using webcam (demo)
+USING WEBCAM (demo)
+
 To use webcam, use the following command:
 
 python3 classify_webcam.py
